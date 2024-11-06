@@ -24,7 +24,7 @@ k = int(input())
 arr = list(map(int, input().split()))
 
 
-def solution(arr: list, k: int) -> str:
+def create_prefix_sums(arr: list, k: int) -> str:
     ans = [0]*k
     ans[0] = arr[0]
     for i in range(1, len(arr)):
@@ -33,5 +33,5 @@ def solution(arr: list, k: int) -> str:
 
 
 
-answer = solution(arr, k)
+answer = create_prefix_sums(arr, k)
 print(answer)

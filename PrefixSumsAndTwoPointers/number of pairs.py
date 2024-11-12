@@ -40,5 +40,8 @@ def count_number_of_pairs(arr: list, k: int) -> int:
     return count
 
 
+
+
+
 answer = count_number_of_pairs(arr, k)
 print(answer)
